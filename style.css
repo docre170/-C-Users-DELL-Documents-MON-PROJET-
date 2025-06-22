@@ -136,3 +136,48 @@ label{
     width: 100px;
     border-radius: 150px;
 }
+/*  j'ai ajouter le responsive design */
+@media (max-width: 600px) {
+    body {
+        background-position: center top;
+        background-size: cover;
+    }
+
+    #FORMULAIRE {
+        width: 95vw;
+        min-width: 0;
+        height: auto;
+        padding: 10vw 2vw;
+        margin-bottom: 50px;
+    }
+
+    #border_input_1,
+    #border_input_2,
+    #border_input_3 {
+        width: 90vw;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    input[type="text"] {
+        width: 80vw;
+        font-size: 1em;
+    }
+
+    #button {
+        width: 90vw;
+        min-width: 0;
+        margin-top: 10px;
+    }
+
+    .div1, .div2, .div3, .div4, .div5, .div6 {
+        width: 60px;
+        height: 60px;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
